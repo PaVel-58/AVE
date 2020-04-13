@@ -524,15 +524,15 @@ main {
           color: #8e8c8c;
           margin-bottom: 15px; }
         main.local-stores .map .card .location {
-          background: transparent url("images/icons/location.png") 0 50% no-repeat; }
+          background: transparent url("../images/icons/location.png") 0 50% no-repeat; }
         main.local-stores .map .card .number {
-          background: transparent url("images/icons/phone.png") 0 50% no-repeat; }
+          background: transparent url("../images/icons/phone.png") 0 50% no-repeat; }
         main.local-stores .map .card .site {
-          background: transparent url("images/icons/website.png") 0 50% no-repeat; }
+          background: transparent url("../images/icons/website.png") 0 50% no-repeat; }
         main.local-stores .map .card .e-mail {
-          background: transparent url("images/icons/e-mail.png") 0 50% no-repeat; }
+          background: transparent url("../images/icons/e-mail.png") 0 50% no-repeat; }
         main.local-stores .map .card .work-time {
-          background: transparent url("images/icons/time.png") 0 50% no-repeat; }
+          background: transparent url("../images/icons/time.png") 0 50% no-repeat; }
         main.local-stores .map .card .social {
           margin-top: 45px;
           display: -webkit-flex;
@@ -756,7 +756,7 @@ main {
           font-size: 15px;
           color: #00c8c8;
           padding-right: 20px;
-          background: transparent url("images/icons/arrow.png") 100% 50% no-repeat; }
+          background: transparent url("../images/icons/arrow.png") 100% 50% no-repeat; }
     main.sign-up .register {
       margin-left: 35px; }
       main.sign-up .register form .checkbox {
@@ -799,7 +799,7 @@ main {
           font-size: 15px;
           color: #00c8c8;
           padding-right: 20px;
-          background: transparent url("images/icons/arrow.png") 100% 50% no-repeat; }
+          background: transparent url("../images/icons/arrow.png") 100% 50% no-repeat; }
   main.product {
     width: 100%;
     max-width: 1170px;
@@ -831,18 +831,18 @@ main {
             margin: 0;
             padding: 0;
             border: none;
-            background: transparent url("images/icons/prev_off.png") no-repeat 50% 50%; }
+            background: transparent url("../images/icons/prev_off.png") no-repeat 50% 50%; }
             main.product .product-card .image .buttons .next button:hover {
-              background: #00c8c8 url("images/icons/prev_on.png") no-repeat 50% 50%; }
+              background: #00c8c8 url("../images/icons/prev_on.png") no-repeat 50% 50%; }
           main.product .product-card .image .buttons .prev button {
             width: 45px;
             height: 55px;
             margin: 0;
             padding: 0;
             border: none;
-            background: transparent url("images/icons/next_off.png") no-repeat 50% 50%; }
+            background: transparent url("../images/icons/next_off.png") no-repeat 50% 50%; }
             main.product .product-card .image .buttons .prev button:hover {
-              background: #00c8c8 url("images/icons/next_on.png") no-repeat 50% 50%; }
+              background: #00c8c8 url("../images/icons/next_on.png") no-repeat 50% 50%; }
         main.product .product-card .image .zoom {
           display: inline-block;
           position: relative; }
@@ -957,21 +957,21 @@ main {
             main.product .product-card .container .buttons .like:hover {
               color: #ffffff; }
           main.product .product-card .container .buttons .buy {
-            background: transparent url("images/icons/buy.png") 10% 50% no-repeat; }
+            background: transparent url("../images/icons/buy.png") 10% 50% no-repeat; }
             main.product .product-card .container .buttons .buy:hover {
               border: 2px solid #333333;
-              background: #333333 url("images/icons/buy_hov.png") 10% 50% no-repeat; }
+              background: #333333 url("../images/icons/buy_hov.png") 10% 50% no-repeat; }
           main.product .product-card .container .buttons .like {
-            background: transparent url("images/icons/like.png") 10% 50% no-repeat; }
+            background: transparent url("../images/icons/like.png") 10% 50% no-repeat; }
             main.product .product-card .container .buttons .like:hover {
               border: 2px solid #00c8c8;
-              background: #00c8c8 url("images/icons/like_hov.png") 10% 50% no-repeat; }
+              background: #00c8c8 url("../images/icons/like_hov.png") 10% 50% no-repeat; }
           main.product .product-card .container .buttons .compare {
             margin-top: 15px;
             padding: 10px 0 10px 43px;
-            background: transparent url("images/icons/compare.png") 0% 50% no-repeat; }
+            background: transparent url("../images/icons/compare.png") 0% 50% no-repeat; }
             main.product .product-card .container .buttons .compare:hover {
-              background: transparent url("images/icons/compare_hov.png") 0% 50% no-repeat; }
+              background: transparent url("../images/icons/compare_hov.png") 0% 50% no-repeat; }
           main.product .product-card .container .buttons button {
             margin: 0;
             padding: 0;
