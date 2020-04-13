@@ -1139,3 +1139,14 @@ main {
     margin-left: 50px; }
   .header__topBar {
     max-width: 1030px; } }
+
+@media screen and (max-width: 1210px) {
+  .header__title {
+    font-size: 270px;
+    padding: 125px 0 150px; }
+    .header__title span {
+      margin-right: 160px; } }
+
+@media screen and (max-width: 1090px) {
+  .header__topBar {
+    max-width: 1470px; } }

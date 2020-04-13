@@ -1297,3 +1297,23 @@ main {
 		}
 	}
 }
+
+@media screen and (max-width: 1210px) {
+	.header {
+		&__title {
+			font-size: 270px;
+			padding: 125px 0 150px;
+			span {
+				margin-right: 160px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	.header {
+		&__topBar {
+			max-width: 1470px;
+		}
+	}
+}
