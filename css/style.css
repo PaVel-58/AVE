@@ -1152,9 +1152,9 @@ main {
     max-width: 1470px; } }
 
 @media screen and (max-width: 425px) {
-  .footer__box .left {
+  .footer .left {
     display: block;
     margin: 0 auto; }
-  .footer__box .right {
+  .footer .right {
     display: block;
     margin: 0 auto; } }

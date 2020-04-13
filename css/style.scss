@@ -1320,15 +1320,13 @@ main {
 
 @media screen and (max-width: 425px) {
 	.footer {
-		&__box {
-			.left {
-				display: block;
-				margin: 0 auto;
-			}
-			.right {
-				display: block;
-				margin: 0 auto;
-			}
+		.left {
+			display: block;
+			margin: 0 auto;
+		}
+		.right {
+			display: block;
+			margin: 0 auto;
 		}
 	}
 }
