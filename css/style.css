@@ -1142,9 +1142,11 @@ main {
     box-sizing: border-box; } }
 
 @media screen and (max-width: 1464px) {
+  .header .right {
+    margin-top: -7px; }
   .header__search {
     display: block;
-    margin: 0 0 0 auto; }
+    margin: 15px 0 0 auto; }
   .header__logo {
     vertical-align: top; } }
 

@@ -1300,9 +1300,12 @@ main {
 
 @media screen and (max-width: 1464px) {
 	.header {
+		.right {
+			margin-top: -7px;
+		}
 		&__search {
 			display: block;
-			margin: 0 0 0 auto;
+			margin: 15px 0 0 auto;
 		}
 		&__logo {
 			vertical-align: top;
