@@ -1279,7 +1279,6 @@ main {
 			}
 		}
 		&__mainNavbar {
-			max-width: 1470px;
 			margin: 0 0 0 auto;
 			nav {
 				ul {
@@ -1293,7 +1292,21 @@ main {
 			margin-left: 50px;
 		}
 		&__topBar {
-			max-width: 1030px; 
+			max-width: 1556px;
+			padding: 0 15px;
+			box-sizing: border-box; 
+		}
+	}
+}
+
+@media screen and (max-width: 1464px) {
+	.header {
+		&__search {
+			display: block;
+			margin: 0 0 0 auto;
+		}
+		&__logo {
+			vertical-align: top;
 		}
 	}
 }
@@ -1310,10 +1323,14 @@ main {
 	}
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1000px) {
 	.header {
-		&__topBar {
-			max-width: 1470px;
+		&__title {
+			font-size: 190px;
+			padding: 40px 0 150px;
+			span {
+				margin-right: 160px;
+			}
 		}
 	}
 }

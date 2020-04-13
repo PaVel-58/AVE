@@ -1131,14 +1131,22 @@ main {
     .header__title span {
       margin-right: 280px; }
   .header__mainNavbar {
-    max-width: 1470px;
     margin: 0 0 0 auto; }
     .header__mainNavbar nav ul li {
       margin-right: 40px; }
   .header__search {
     margin-left: 50px; }
   .header__topBar {
-    max-width: 1030px; } }
+    max-width: 1556px;
+    padding: 0 15px;
+    box-sizing: border-box; } }
+
+@media screen and (max-width: 1464px) {
+  .header__search {
+    display: block;
+    margin: 0 0 0 auto; }
+  .header__logo {
+    vertical-align: top; } }
 
 @media screen and (max-width: 1210px) {
   .header__title {
@@ -1147,9 +1155,12 @@ main {
     .header__title span {
       margin-right: 160px; } }
 
-@media screen and (max-width: 1090px) {
-  .header__topBar {
-    max-width: 1470px; } }
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 190px;
+    padding: 40px 0 150px; }
+    .header__title span {
+      margin-right: 160px; } }
 
 @media screen and (max-width: 425px) {
   .footer .left {
