@@ -229,7 +229,8 @@ button {
   .header .colectionBt {
     position: absolute;
     bottom: 90px;
-    right: 500px;
+    right: 10%;
+    transform: translateX(-10%);
     background: none;
     border: none;
     letter-spacing: 2px;
@@ -1125,44 +1126,77 @@ main {
       margin-right: 390px; } }
 
 @media screen and (max-width: 1560px) {
-  .header__title {
+  .header.main__title {
     font-size: 270px;
-    padding: 125px 0 150px; }
-    .header__title span {
+    padding: 40px 0 150px; }
+    .header.main__title span {
       margin-right: 280px; }
-  .header__mainNavbar {
+  .header.main__mainNavbar {
     margin: 0 0 0 auto; }
-    .header__mainNavbar nav ul li {
+    .header.main__mainNavbar nav ul li {
       margin-right: 40px; }
-  .header__search {
+  .header.main__search {
     margin-left: 50px; }
-  .header__topBar {
+  .header.main__topBar {
     max-width: 1556px;
     padding: 0 15px;
     box-sizing: border-box; } }
 
 @media screen and (max-width: 1464px) {
-  .header .right {
+  .header.main .right {
     margin-top: -7px; }
-  .header__search {
+    .header.main .right ul li {
+      margin-right: 20px; }
+  .header.main__search {
     display: block;
     margin: 15px 0 0 auto; }
+  .header.main__logo {
+    vertical-align: top; }
+  .header__search {
+    display: inline-block;
+    margin-left: 50px; }
   .header__logo {
-    vertical-align: top; } }
+    vertical-align: middle; }
+  .header .right {
+    vertical-align: middle; } }
 
 @media screen and (max-width: 1210px) {
-  .header__title {
-    font-size: 270px;
-    padding: 125px 0 150px; }
-    .header__title span {
+  .header.main__title {
+    font-size: 270px; }
+    .header.main__title span {
       margin-right: 160px; } }
 
+@media screen and (max-width: 1230px) {
+  .header__topBar {
+    padding: 0 15px;
+    box-sizing: border-box; } }
+
 @media screen and (max-width: 1000px) {
-  .header__title {
-    font-size: 190px;
-    padding: 40px 0 150px; }
-    .header__title span {
+  .header.main__title {
+    font-size: 190px; }
+    .header.main__title span {
       margin-right: 160px; } }
+
+@media screen and (max-width: 994px) {
+  .header.main__title {
+    font-size: 140px;
+    margin-top: -40px; }
+    .header.main__title span {
+      margin-right: 100px; }
+  .header.main .colectionBt {
+    padding: 10px 15px; }
+  .header.main__navBlock {
+    width: auto; }
+  .header.main__currency {
+    width: calc(100% / 2 - 60px); } }
+
+@media screen and (max-width: 930px) {
+  .header .right ul li {
+    margin-right: 20px; } }
+
+@media screen and (max-width: 720px) {
+  .header__navBlock {
+    width: auto; } }
 
 @media screen and (max-width: 425px) {
   .footer .left {
