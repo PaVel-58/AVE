@@ -52,7 +52,7 @@ button {
   position: relative;
   background: url(../images/headerBg.png) no-repeat 50% 50%/cover; }
   .header__topBox {
-    background: #000; }
+    background: #333333; }
   .header__topBar {
     width: 100%;
     max-width: 1200px;
