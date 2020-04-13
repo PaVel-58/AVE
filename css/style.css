@@ -1150,3 +1150,11 @@ main {
 @media screen and (max-width: 1090px) {
   .header__topBar {
     max-width: 1470px; } }
+
+@media screen and (max-width: 425px) {
+  .footer__box .left {
+    display: block;
+    margin: 0 auto; }
+  .footer__box .right {
+    display: block;
+    margin: 0 auto; } }
