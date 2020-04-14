@@ -1270,7 +1270,7 @@ main {
 }
 
 @media screen and (max-width: 1560px) {
-	.header.main {
+	.header {
 		&__title {
 			font-size: 270px;
 			padding: 40px 0 150px;
@@ -1300,7 +1300,7 @@ main {
 }
 
 @media screen and (max-width: 1464px) {
-	.header.main {
+	.header {
 		.right {
 			margin-top: -7px;
 			ul {
@@ -1317,23 +1317,10 @@ main {
 			vertical-align: top;
 		}
 	}
-	.header {
-		&__search {
-			display: inline-block;
-			margin-left: 50px;
-		}
-		&__logo {
-			vertical-align: middle;
-		}
-		.right {
-			vertical-align: middle;
-		}
-
-	}
 }
 
 @media screen and (max-width: 1210px) {
-	.header.main {
+	.header {
 		&__title {
 			font-size: 270px;
 			span {
@@ -1343,17 +1330,8 @@ main {
 	}
 }
 
-@media screen and (max-width: 1230px) {
-	.header {
-		&__topBar {
-			padding: 0 15px;
-			box-sizing: border-box;
-		}
-	}
-}
-
 @media screen and (max-width: 1000px) {
-	.header.main {
+	.header {
 		&__title {
 			font-size: 190px;
 			span {
@@ -1364,7 +1342,7 @@ main {
 }
 
 @media screen and (max-width: 994px) {
-	.header.main {
+	.header {
 		&__title {
 			font-size: 140px;
 			margin-top: -40px;
@@ -1380,26 +1358,6 @@ main {
 		}
 		&__currency {
 			width: calc(100% / 2 - 60px);
-		}
-	}
-}
-
-@media screen and (max-width: 930px) {
-	.header {
-		.right {
-			ul {
-				li {
-					margin-right: 20px;
-				}
-			}
-		}
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.header {
-		&__navBlock {
-			width: auto;
 		}
 	}
 }
