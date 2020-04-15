@@ -357,8 +357,7 @@ button {
     cursor: pointer; }
 
 main {
-  padding-top: 62px;
-  padding-bottom: 125px; }
+  padding-top: 62px; }
   main .main-button {
     margin-top: 15px; }
     main .main-button button {
@@ -579,8 +578,7 @@ main {
       display: -o-flex;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 0 -15px; }
+      justify-content: space-between; }
       main.lookbook .top-content .cards .column, main.home .top-content .cards .column {
         display: -webkit-flex;
         display: -moz-flex;
@@ -683,11 +681,11 @@ main {
       width: 100%; }
       main.lookbook .bottom-content .cards .card, main.home .bottom-content .cards .card {
         position: relative;
-        width: 31.7%;
+        width: calc(100% / 3 - 10px);
         min-width: 540px;
         height: 530px;
         background: #f8f8f8;
-        margin-top: 30px; }
+        margin: 30px; }
         main.lookbook .bottom-content .cards .card img, main.home .bottom-content .cards .card img {
           height: 530px;
           object-fit: cover; }
@@ -1024,12 +1022,14 @@ main {
   width: 100%;
   max-width: 1205px;
   margin: 0 auto;
-  padding: 30px 0; }
+  padding: 30px 0;
+  text-align: center; }
   .footer nav ul {
     width: calc(100% / 5 - 20px);
     display: inline-block;
+    text-align: left;
     vertical-align: top;
-    margin-right: 20px; }
+    margin: 20px 20px 20px 70px; }
     .footer nav ul:last-child {
       margin-right: 0; }
       .footer nav ul:last-child li {
@@ -1180,6 +1180,14 @@ main {
     .header__title span {
       margin-right: 160px; } }
 
+@media screen and (max-width: 1152px) {
+  .bottom-content .cards {
+    display: block; }
+    .bottom-content .cards .card {
+      max-width: 790px;
+      width: 100%;
+      margin: 30px auto 0; } }
+
 @media screen and (max-width: 1000px) {
   .header__title {
     font-size: 190px; }
@@ -1200,6 +1208,8 @@ main {
     width: calc(100% / 2 - 60px); } }
 
 @media screen and (max-width: 869px) {
+  .home .top-content .menu ul li {
+    margin-right: 30px !important; }
   .footer .left {
     display: block;
     margin: 0 auto 20px; }
