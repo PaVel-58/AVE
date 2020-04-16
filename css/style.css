@@ -681,7 +681,7 @@ main {
       width: 100%; }
       main.lookbook .bottom-content .cards .card, main.home .bottom-content .cards .card {
         position: relative;
-        width: calc(100% / 3 - 10px);
+        width: 30.4%;
         min-width: 540px;
         height: 530px;
         background: #f8f8f8;
